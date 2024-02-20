@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html, body, h1, h2, h3, h4, h5, [class*="css"], [class="legendtoggle"] { font-family: 'Open Sans', sans-serif; }
+
+/* Cartões / Colunas */
+[data-testid="column"] {
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 12px 0px;
+    border-radius: 15px;
+    padding: 0.5% 1.5%;
+    background-color: #23998E;
+} 
+
+/* Cartões de Métrica */
+[data-testid="stMetricLabel"] {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+[data-testid="stMarkdownContainer"] {
+    text-align: center;
+}
+
+[data-testid="stMetricValue"]{
+    text-align: center;
+}
+
+[data-testid="stMetricDelta"]{
+    display: flex;
+    justify-content: center;
+}
+
+[data-testid="stMetricDelta"] [class="css-1wivap2 e16fv1kl3"]{
+    text-align: center;
+    width: auto;
+}
+
+
+[data-testid="stTitle"]{
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 2px solid #d0d0d0;
+    border-radius: 5px;
+    font-size: 24px;
+    text-align: center;
+    color: #333333;
+}
